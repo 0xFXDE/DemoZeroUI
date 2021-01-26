@@ -1,9 +1,10 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -42,10 +43,25 @@ namespace DemoZeroUI
         string password = "1234";
 
         Main mainhitler = new Main();
+
+        WebClient webclientsender = new WebClient();
+
+
         private void button1_Click(object sender, EventArgs e)
         {
+            if (textBox1.Text == webclientsender.DownloadString("https://raw.githubusercontent.com/0xFXDE/DemoZeroUI/main/Username"))
+            {
+                if (textBox2.Text == webclientsender.DownloadString("https://raw.githubusercontent.com/0xFXDE/DemoZeroUI/main/password"))
+                {
+                    mainhitler.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Incorrect Password, imagine not knowing ur password lmfao...", "DemoZeroUI");
+                }
+            }
             //sexy ass authentication that everyone should use right right
-            if (textBox1.Text == username && textBox2.Text == password)
+            else if (textBox1.Text == username && textBox2.Text == password)
             {
                 mainhitler.Show();
             }
