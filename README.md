@@ -22,3 +22,10 @@ Includes :
 I will update this frequently, if i have time, stay tuned for more :)
 
 Some Pictures : 
+
+https://cdn.discordapp.com/attachments/794988584217870367/803420110554660884/unknown.png
+https://cdn.discordapp.com/attachments/794988584217870367/803420140339068938/unknown.png
+https://cdn.discordapp.com/attachments/794988584217870367/803420195611344906/unknown.png
+
+Gif :
+https://gyazo.com/5ebaee4fb1b8530d128919552d20adb8
