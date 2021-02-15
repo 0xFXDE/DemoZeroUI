@@ -5,7 +5,7 @@ Simple UI Base For A GTA V Mod Menu Launcher/Loader.
 Things to DO : 
 - Add a drag control, so you can move the UI around.
 - Add your own code, such as download links,BETTER authentication,injector, more slides.
-
+- Credit me
 
 What's is this?
 
